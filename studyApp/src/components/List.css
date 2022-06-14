@@ -1,0 +1,105 @@
+.card{
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.listField li{
+    padding: 15px;
+}
+
+.card{
+    -webkit-box-shadow: 0 0 6px 4px #E9E9E9;
+	-moz-box-shadow: 0 0 6px 4px #E9E9E9;
+	box-shadow: 0 0 6px 4px #E9E9E9;
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.hotelImg{
+    height: 100%;
+    max-width: 100%;
+    border-radius: 10%;
+    padding: 0.3rem;
+}
+
+.btnRating{
+    font-size: 60%;
+    font-weight: bold;
+}
+.minus{margin: 0 10px;}
+
+.card-title{text-align: left;}
+.cardText{
+    display: block;
+    height: auto;
+    border-radius: 6px;
+    color:#00CABE;
+    font-weight: 500;
+    background-color: #f4f8fd;
+    width: 75%;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 5px 0px;
+}
+
+.row {
+    position: relative;
+  }
+
+  .hover-btn {
+     position: absolute;
+     display: none;
+  }
+
+  .row:hover .hover-btn {
+     display: block;
+  }
+
+  .close {
+    position: absolute;
+    top: -14px;
+    right: -2px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    background-color: #DA332E;
+    border: 0.1px solid #d51b1b;
+    border-radius: 50%;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+}
+
+.add {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em;
+}
+.bannerHotel{
+    display: block;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: inherit;
+    line-height: 1.2;
+}
+.btnDelBtn{
+    display: none;
+}
+.float-end{
+    display: none;
+}
